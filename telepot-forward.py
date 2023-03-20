@@ -19,7 +19,7 @@ def handle(msg):
         bot.forwardMessage(personal, chat_id, message_id)
         bot.sendMessage(chat_id, str("Message Forwarded")
 # Insert your telegram token below
-bot = telepot.Bot('your_token_here')
+bot = telepot.Bot('<your_token_here>')
 print (bot.getMe())
 
 # Start listening to the telegram bot and whenever a message is  received, the handle function will be called.
