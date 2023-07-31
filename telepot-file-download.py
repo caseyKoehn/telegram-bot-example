@@ -24,7 +24,7 @@ def handle(msg):
         bot.sendMessage(chat_id, str("Please send file."))
         
 # Insert your telegram token below
-bot = telepot.Bot('INSERT BOT TOKEN HERE')
+bot = telepot.Bot('<your_token_here>')
 print (bot.getMe())
 
 # Start listening to the telegram bot and whenever a message is  received, the handle function will be called.
